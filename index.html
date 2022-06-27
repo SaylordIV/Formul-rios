@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Front-End</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header id="header-topo">
+        <h1>Atividade Mapa - Disciplina de Front-End</h1>
+    </header>
+
+    <section class="section-rascunho">
+        <header id="header-subtitle">
+            <h2>Formulários de rascunho</h2>
+        </header>
+
+        <form method="post">
+            <section class="section-float-rascunhos">
+                <header>
+                    <h3>Rascunho 1</h3>
+                    <em>Formulários de cadastro de usuário</em>
+                </header>
+
+                <div class="div-form-fundo">
+                    <h3>Formulário de cadastro de usuário</h3>
+                    <p>Preencha os seus dados para o cadastro de seu usuário!</p>
+                    <div class="div-rascunho">
+                        <input type="text" name="input-login" id="input-login" placeholder="Informe um Login">
+                        <input type="password" name="input-senha" id="input-senha" placeholder="Informe uma Senha">
+                        <input type="email" name="input-email" id="input-Email" placeholder="Informe o seu E-mail">
+                        <input id="btn-cadastrar-rascunho" type="button" name="btn-cadastrar" value="Cadastrar">
+                    </div>
+                </div>
+            </section>
+        </form>
+
+        <form method="get">
+            <section class="section-float-rascunhos">
+                <header>
+                    <h3>Rascunho 2</h3>
+                    <em>Formulários de autenticação de usuário</em>
+                </header>
+
+                <div class="div-form-fundo">
+                    <h3>Formulário de autenticação de usuário</h3>
+                    <p>Informe seus dados de acesso!</p>
+                    <div class="div-rascunho">
+                        <input type="text" name="input-login" id="input-login" placeholder="Informe um Login">
+                        <input type="password" name="input-senha" id="input-senha" placeholder="Informe uma Senha">
+                    </div>
+                    <input type="checkbox" name="cb-lembrar" id="cb-lembrar"> Lembrar-me <br>
+                    <label for="btn-cadastre-se-rasc">Ainda não tem conta?</label>
+                    <input id="btn-cadastre-se-rasc" type="button" name="btn-cadastre-se" value="Cadastre-se">
+                    <a href="">Esqueceu a senha?</a><br>
+                    <input id="btn-logar-rascunho" name="btn-logar" type="button" value="Logar">
+                </div>
+            </section>
+        </form>
+
+        <form method="get">
+            <section class="section-float-rascunhos">
+                <header>
+                    <h3>Rascunho 3</h3>
+                    <em>Formulários lembrar senha do usuário</em>
+                </header>
+
+                <div class="div-form-fundo">
+                    <h3>Formulário lembrar senha do usuário</h3>
+                    <p>Informe seus dados de acesso!</p>
+                    <div class="div-rascunho">
+                        <input type="email" name="input-email" id="input-Email"
+                            placeholder="Informe o seu e-mail cadastrado">
+                    </div>
+                </div>
+            </section>
+        </form>
+    </section>
+
+    <section id="section-form">
+        <header id="header-subtitle">
+            <h1>Telas dos Formulários</h1>
+        </header>
+        <form method="post">
+            <section class="section-float-form">
+                <div class="div-form-fundo">
+                    <h3>Formulário de cadastro de usuário</h3>
+                    <p>Preencha os seus dados para o cadastro de seu usuário!</p>
+                    <div class="div-form">
+                        <input type="text" name="input-login" id="input-login" placeholder="Informe um Login">
+                        <input type="password" name="input-senha" id="input-senha" placeholder="Informe uma Senha">
+                        <input type="email" name="input-email" id="input-Email" placeholder="Informe o seu E-mail">
+                        <input id="btn-cadastrar-form" type="button" name="btn-cadastrar" value="Cadastrar">
+                    </div>
+                </div>
+            </section>
+        </form>
+
+        <form method="get">
+            <section class="section-float-form">
+                <div class="div-form-fundo">
+                    <h3>Formulário de autenticação de usuário</h3>
+                    <p>Informe seus dados de acesso!</p>
+                    <div class="div-form">
+                        <input type="text" name="input-login" id="input-login" placeholder="Informe um Login">
+                        <input type="password" name="input-senha" id="input-senha" placeholder="Informe uma Senha">
+                    </div>
+                    <input type="checkbox" name="cb-lembrar" id="cb-lembrar"> Lembrar-me <br>
+                    <label for="btn-cadastre-se-form">Ainda não tem conta?</label>
+                    <input id="btn-cadastre-se-form" type="button" name="btn-cadastre-se" value="Cadastre-se">
+                    <a href="">Esqueceu a senha?</a><br>
+                    <input id="btn-logar-form" name="btn-logar" type="button" value="Logar">
+                </div>
+            </section>
+        </form>
+
+        <form method="get">
+            <section class="section-float-form">
+                <div class="div-form-fundo">
+                    <h3>Formulário lembrar senha do usuário</h3>
+                    <p>Informe seus dados de acesso!</p>
+                    <div class="div-form">
+                        <input type="email" name="input-email" id="input-Email"
+                            placeholder="Informe o seu e-mail cadastrado">
+                    </div>
+                    <input id="btn-logar-form" name="btn-logar" type="button" value="Enviar">
+                </div>
+            </section>
+        </form>
+    </section>
+
+    <footer id="rodape">
+        <address>
+            Nome: Emanoel dos santos <br>
+            R.A: 21062781-5
+        </address>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

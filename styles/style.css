@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 12px;
+}
+
+#header-topo{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+#header-subtitle{
+    width: 1200px;
+    background: rgb(255, 144, 144);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section-rascunho{
+    margin: 50px;
+}
+
+.section-rascunho h3{
+    color: rgb(96, 96, 96);
+}
+
+.section-float-rascunhos{
+    margin-top: 20px;
+    padding-right: 55px;
+    float: left;
+}
+
+.div-rascunho{
+    width: 300px;
+    padding: 20px;
+    clear: both;
+}
+
+.div-rascunho input{
+    width: 300px;
+    display: block;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 1px;
+    border-style: none;
+}
+
+#btn-cadastrar-rascunho{
+    width: 316px;
+}
+
+#btn-cadastrar-rascunho:hover{
+    background: rgb(224, 224, 224);
+}
+
+#btn-cadastre-se-rasc{
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid black;
+}
+
+#btn-cadastre-se-rasc:hover{
+    background: rgb(224, 224, 224);
+}
+
+#btn-logar-rascunho{
+    width: 150px;
+    margin: 20px 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#btn-logar-rascunho:hover{
+    background: rgb(245, 245, 245);
+}
+
+.div-form-fundo{
+    width: 315px;
+    height: 310px;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.div-form-fundo a{
+    text-decoration: none;
+}
+
+.section-float-form{
+    margin-top: 20px;
+    padding-right: 55px;
+    float: left;
+}
+
+#section-form{
+    margin: 450px 50px;
+    clear: both;
+}
+
+.div-form{
+    width: 300px;
+    padding: 20px;
+    clear: both;
+}
+
+.div-form input{
+    width: 300px;
+    display: block;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 1px;
+    border-style: none;
+}
+
+#btn-logar-form{
+    width: 150px;
+    margin: 20px 80px;
+    background: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#btn-cadastrar-form{
+    width: 316px;
+}
+
+#btn-cadastre-se-form{
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#rodape{
+    background: #000;
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 50px 0px 25px 0px;
+    clear: both;
+}
+
+#rodape p{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
